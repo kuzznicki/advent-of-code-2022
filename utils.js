@@ -34,3 +34,11 @@ export function range(from, to) {
     [from, to] = [from, to].map(n => +n);
     return new Array(+to - +from + 1).fill(1).map((_, i) => +from + i);
 }
+
+export function traverse(current, getChildrenFn, callbackFn) {
+    callbackFn(current);
+
+    for (const child of getChildrenFn(current)) {
+        traverse(child, getChildrenFn, callbackFn);
+    }
+}
