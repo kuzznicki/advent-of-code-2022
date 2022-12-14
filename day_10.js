@@ -1,5 +1,5 @@
 import { EOL } from "os";
-import { inputFileToArray, sum } from "../utils.js";
+import { inputFileToArray, sum } from "./utils.js";
 
 const SCREEN_SIZE = { W: 40, H: 6 };
 

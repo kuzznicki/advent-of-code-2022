@@ -1,5 +1,5 @@
 import { EOL } from "os";
-import { inputFileToArray, intersect, range } from "../utils.js";
+import { inputFileToArray, intersect, range } from "./utils.js";
 
 const [answer1, answer2] = solve();
 console.log('PART ONE: ' + answer1);

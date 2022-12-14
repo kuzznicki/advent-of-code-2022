@@ -1,4 +1,4 @@
-import { inputFileToArray, unique } from "../utils.js";
+import { inputFileToArray, unique } from "./utils.js";
 
 const PACKET_START_LEN = 4;
 const MSG_START_LEN = 14;

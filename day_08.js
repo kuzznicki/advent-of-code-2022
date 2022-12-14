@@ -1,5 +1,5 @@
 import { EOL } from "os";
-import { inputFileToArray, sum } from "../utils.js";
+import { inputFileToArray, sum } from "./utils.js";
 
 const [answer1, answer2] = solve();
 console.log('PART ONE: ' + answer1);

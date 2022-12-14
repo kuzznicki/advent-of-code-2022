@@ -1,5 +1,5 @@
 import { EOL } from "os";
-import { inputFileToArray, sum, traverse } from "../utils.js";
+import { inputFileToArray, sum, traverse } from "./utils.js";
 
 const DISK_SPACE = 70000000;
 const NEEDED_SPACE = 30000000;

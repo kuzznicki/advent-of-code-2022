@@ -1,5 +1,5 @@
 import { EOL } from "os";
-import { inputFileToArray, unique } from "../utils.js";
+import { inputFileToArray, unique } from "./utils.js";
 
 const steps = getStepsFromInput();
 console.log('PART ONE: ' + solve(steps, 2));

@@ -1,5 +1,5 @@
 import { EOL } from "os";
-import { inputFileToArray, inputToArray } from "../utils.js";
+import { inputFileToArray, inputToArray } from "./utils.js";
 
 console.log('PART ONE: ' + solve(20, true));
 console.log('PART TWO: ' + solve(10000)); 
