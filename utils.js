@@ -35,6 +35,10 @@ export function range(from, to) {
     return new Array(+to - +from + 1).fill(1).map((_, i) => +from + i);
 }
 
+export function dist(p1, p2) {
+    return Math.abs(p1.x - p2.x) + Math.abs(p1.y - p2.y);
+}
+
 export function traverse(current, getChildrenFn, callbackFn) {
     callbackFn(current);
 
